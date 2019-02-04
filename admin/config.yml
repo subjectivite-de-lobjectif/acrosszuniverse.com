@@ -17,6 +17,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "date"}
-      - {label: "Featured Image", name: "img", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
