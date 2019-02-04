@@ -7,64 +7,46 @@ permalink: /about/
   <div class="about-container">
     <section class="about-header">
       <div class="author-image-container">
-        <img src="{{site.baseurl}}/assets/img/{% if site.author-pic %}{{site.author-pic}}{% endif %}" alt="{{site.author}}">
+        <img src="{{site.baseurl}}/assets/img/{% if site.data.author.profile-pic %}{{site.data.author.profile-pic}}{% endif %}" alt="{{site.data.author.full-name}}">
       </div>
-      <p class="subtitle">{{site.about-author}}</p>
+      <p class="subtitle">{{site.data.author.bio}}</p>
     </section>
     <section class="about-body">
       <ul class="contact-list">
-      {% if site.email %}
-        <li class="email"><a href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
-      {% else %}
-        <li class="email"><a href="mailto:example.adam@blog.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+      {% if site.data.author.email %}
+        <li class="email"><a href="mailto:{{site.data.author.email}}"><i class="fa fa-envelope-o"></i></a></li>
       {% endif %}
 
-      {% if site.phone %}
-        <li class="phone"><a href="tel:{{site.phone}}"><i class="fa fa-phone"></i></a></li>
-      {% else %}
-        <li class="phone"><a href="tel:044 825 5523"><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+      {% if site.data.author.phone %}
+        <li class="phone"><a href="tel:{{site.data.author.phone}}"><i class="fa fa-phone"></i></a></li>
       {% endif %}
 
-      {% if site.website %}
-        <li class="website"><a href="http://{{site.website}}" target="_blank"><i class="fa fa-globe"></i></a></li>
-      {% else %}
-        <li class="website"><a href="https://artemsheludko.github.io" target="_blank"><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+      {% if site.data.author.website %}
+        <li class="website"><a href="http://{{site.data.author.website}}" target="_blank"><i class="fa fa-globe"></i></a></li>
       {% endif %}
 
-      {% if site.linkedin %}
-        <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      {% else %}
-        <li class="linkedin"><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+      {% if site.data.author.linkedin %}
+        <li class="linkedin"><a href="https://in.linkedin.com/in/{{site.data.author.linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
       {% endif %}
 
-      {% if site.github %}
-        <li class="github"><a href="http://github.com/{{site.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
-      {% else %}
-        <li class="github"><a href="http://github.com/artemsheludko" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      {% if site.data.author.github %}
+        <li class="github"><a href="http://github.com/{{site.data.author.github}}" target="_blank"><i class="fa fa-github"></i></a></li>
       {% endif %}
 
-      {% if site.twitter %}
-        <li class="twitter"><a href="https://twitter.com/{{site.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-      {% else %}
-        <li class="twitter"><a href="https://twitter.com/artemsheludko_" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      {% if site.data.author.twitter %}
+        <li class="twitter"><a href="https://twitter.com/{{site.data.author.twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
       {% endif %}
 
-      {% if site.facebook %}
-        <li class="facebook"><a href="https://facebook.com/{{site.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
-      {% else %}
-        <li class="facebook"><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+      {% if site.data.author.facebook %}
+        <li class="facebook"><a href="https://facebook.com/{{site.data.author.facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
       {% endif %}
 
-      {% if site.instagram %}
-        <li class="instagram"><a href="https://instagram.com/{{site.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
-      {% else %}
-        <li class="instagram"><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+      {% if site.data.author.instagram %}
+        <li class="instagram"><a href="https://instagram.com/{{site.data.author.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
       {% endif %}
 
-      {% if site.pinterest %}
-        <li class="pinterest"><a href="https://pinterest.com/{{site.pinterest}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-      {% else %}
-        <li class="pinterest"><a href="https://pinterest.com/" target="_blank"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+      {% if site.data.author.pinterest %}
+        <li class="pinterest"><a href="https://pinterest.com/{{site.data.author.pinterest}}" target="_blank"><i class="fa fa-pinterest"></i></a></li>
       {% endif %}
       </ul>
     </section> <!-- End About Body-->
