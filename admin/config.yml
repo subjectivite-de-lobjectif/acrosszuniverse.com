@@ -1,0 +1,21 @@
+backend:
+  name: github
+  repo: acrosszuniverse/acrosszuniverse.com
+  branch: gh-pages
+publish_mode: editorial_workflow
+media_folder: "/assets/img"
+collections:
+  - name: "blog"
+    label: "Blog posts"
+    label_singular: "Blog post"
+    folder: "_posts"
+    create: true
+    delete: false
+    format: "yaml-frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Categories", name: "categories", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
