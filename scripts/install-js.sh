@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-# Jquery
+# jQuery
 cp node_modules/jquery/dist/jquery.min.js assets/js
 
 # Simple Jekyll Search
