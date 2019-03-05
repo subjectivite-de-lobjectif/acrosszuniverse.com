@@ -1,0 +1,27 @@
+{
+  "name": "acrosszuniverse.com",
+  "version": "0.1.0",
+  "description": "Travel Photography Blog",
+  "homepage": "https://github.com/subjectivite-de-lobjectif/acrosszuniverse.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subjectivite-de-lobjectif/acrosszuniverse.com.git"
+  },
+  "author": "Alix Mennella <alix@acrosszuniverse.com>",
+  "contributors": [
+    {
+      "name": "Paul-Emmanuel Raoul",
+      "email": "skyper@skyplabs.net",
+      "url": "https://blog.skyplabs.net"
+    }
+  ],
+  "license": "GPL-3.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "simple-jekyll-search": "^1.7.2"
+  },
+  "scripts": {
+    "install": "scripts/install-js.sh"
+  }
+}
