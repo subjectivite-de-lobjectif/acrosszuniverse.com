@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: acrosszuniverse/acrosszuniverse.com
+  repo: subjectivite-de-lobjectif/acrosszuniverse.com
   branch: gh-pages
 publish_mode: editorial_workflow
 media_folder: "/assets/img"
