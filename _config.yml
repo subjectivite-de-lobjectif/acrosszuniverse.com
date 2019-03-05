@@ -5,9 +5,6 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://acrosszuniverse.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Newsletter
-mailchimp: # Add your MailChimp form identifier.
-
 # Disqus
 discus_identifier: # Add your discus identifier
 
@@ -21,10 +18,30 @@ paginate_path: /page:num/
 # Build settings
 markdown: kramdown
 
+sass:
+  style: compressed
+
 plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
 
-include: [_pages]
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+include:
+ - _pages
+
+exclude:
+  - assets/css/sass
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - vendor
+  - scripts
+  - Dockerfile
+  - docker-compose
+  - .travis.yml
