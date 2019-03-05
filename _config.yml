@@ -19,6 +19,7 @@ paginate_path: /page:num/
 markdown: kramdown
 
 sass:
+  sass_dir: assets/css/sass
   style: compressed
 
 plugins:
