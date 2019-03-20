@@ -30,7 +30,9 @@ layout: default
         </div>
         {% include author-box.html %}
         {% include recent-post.html %}
-        {% include disqus.html %}
+        {% if jekyll.environment == "production" %}
+          {% include disqus.html %}
+        {% endif %}
       </div>
     </div>
   </article>

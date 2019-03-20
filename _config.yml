@@ -5,8 +5,8 @@ permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://acrosszuniverse.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Disqus
-discus_identifier: # Add your discus identifier
+# Comments
+disqus_identifier: subjectivite-de-lobjectif # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
