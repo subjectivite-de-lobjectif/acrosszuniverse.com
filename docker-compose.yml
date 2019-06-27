@@ -1,0 +1,6 @@
+acrosszuniverse-blog:
+    build: .
+    volumes:
+        - .:/usr/src/app:z
+    ports:
+        - "4000:4000"
