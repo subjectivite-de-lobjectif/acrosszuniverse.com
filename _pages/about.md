@@ -3,8 +3,6 @@ layout: home-page
 title: About
 permalink: /about/
 ---
-![](/assets/img/alix-profile-picture.jpg)
-
 ## What is this about?
 
 Travel Photography page, where you will find genuine pictures alongside tips on foreign cultures and customs. 
