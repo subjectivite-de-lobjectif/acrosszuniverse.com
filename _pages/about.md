@@ -3,13 +3,15 @@ layout: home-page
 title: About
 permalink: /about/
 ---
+![](/assets/img/alix-profile-picture.jpg)
+
 ## What is this about?
 
-Welcome to my Travel Photography page, where you will find genuine pictures, fun facts, particularities and anecdotes that I learnt during my travels.
+Travel Photography page, where you will find genuine pictures alongside tips on foreign cultures and customs. 
 
 ## Who Am I?
 
-Alix, 27, travel addict (isn’t everyone?), with basic photography skills (even my cat could take great pictures nowadays) who decide to give an overview of foreign countries to those unable to travel.
+Alix, travel addict (isn’t everyone?), with basic photography skills (even my cat could take great pictures nowadays) hoping to inspire some people to be more respectful travellers toward locals and the environment.
 
 ## Why a blog?
 
