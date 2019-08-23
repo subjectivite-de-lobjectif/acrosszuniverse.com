@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Myanmar - Theravada
+title: Theravada
 date: 2018-12-28T21:28:25.641Z
 thumbnail: /assets/img/myanmar-religion.jpg
 tags:
