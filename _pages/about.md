@@ -11,7 +11,7 @@ Travel Photography page, where you will find genuine pictures alongside tips on 
 
 ## Who Am I?
 
-Alix, travel addict (isn’t everyone?), with basic photography skills (even my cat could take great pictures nowadays) hoping to inspire some people to be more respectful travellers toward locals and the environment.
+Alix, french travel addict (isn’t everyone?), with basic photography skills (even my cat could take great pictures nowadays) hoping to inspire some people to be more respectful travellers toward locals and the environment.
 
 ## Why a blog?
 
