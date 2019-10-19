@@ -3,7 +3,7 @@ FROM ruby:2.5.3-slim
 LABEL com.acrosszuniverse.maintainer-name="Paul-Emmanuel Raoul"
 LABEL com.acrosszuniverse.maintainer-email="skyper@skyplabs.net"
 
-EXPOSE 4000
+ARG DEBIAN_FRONTEND=noninteractive
 
 ENV LC_ALL=C.UTF-8
 
@@ -24,5 +24,7 @@ COPY Gemfile.lock /usr/src/app
 
 RUN bundle install \
     && rm -f Gemfile Gemfile.lock
+
+EXPOSE 4000
 
 CMD ["jekyll", "serve", "--host", "0.0.0.0", "--watch", "--drafts", "--future"]
