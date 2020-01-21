@@ -16,12 +16,13 @@
 
 .post-card {
   position: relative;
+  margin: 15px;
 
   .post-card-image {
     display: block;
     width: 100%;
-    min-height: 150px;
-    background-size: cover;
+    min-height: 15em;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     &::after {
@@ -38,8 +39,8 @@
 
   .post-card-body {
     position: absolute;
-    left: 5%;
-    bottom: 5%;
+    left: 2%;
+    bottom: -4%;
 
     .post-card-link {
       text-decoration: none;
