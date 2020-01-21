@@ -5,11 +5,11 @@ permalink: /about/
 ---
 ## What is this about?
 
-Travel Photography page, where you will find genuine pictures alongside tips on foreign cultures and customs. 
+Travel Photography page, where you will find genuine pictures alongside tips on foreign cultures and customs.
 
 ## Who Am I?
 
-Alix, french travel addict (isn’t everyone?), with basic photography skills (even my cat could take great pictures nowadays) hoping to inspire some people to be more respectful travellers toward locals and the environment.
+{{site.data.author.bio}}
 
 ## Why a blog?
 
