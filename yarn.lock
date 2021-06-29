@@ -12,9 +12,9 @@ jquery@^3.6.0:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
   integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
 
-simple-jekyll-search@^1.9.1:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/simple-jekyll-search/-/simple-jekyll-search-1.9.1.tgz#2f50f8ce276daa6786474e8c571c43506b261763"
-  integrity sha512-WL350X9codx5LoYXhGluYz/iE3DRJexHbYMvYXkdYyzjuwQ0Iuz43mpO5rpINgp2TriIiF3Xg7kpgIP9ewGUrw==
+simple-jekyll-search@^1.9.2:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/simple-jekyll-search/-/simple-jekyll-search-1.9.2.tgz#1a17ea4f27cf65bd7a38bd97fc7b86506934f3c9"
+  integrity sha512-hLq18Y8gFFbEbDLkP1RWPmXVvIG3ZTI05+Fzazpq6Img9n0JFK+vUy5ZRPCzJVf80GbgwI1LXr6cDoTO/9DqJA==
   dependencies:
     fuzzysearch "^1.0.3"
