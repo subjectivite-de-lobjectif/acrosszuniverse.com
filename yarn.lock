@@ -7,10 +7,10 @@ fuzzysearch@^1.0.3:
   resolved "https://registry.yarnpkg.com/fuzzysearch/-/fuzzysearch-1.0.3.tgz#dffc80f6d6b04223f2226aa79dd194231096d008"
   integrity sha1-3/yA9tawQiPyImqnndGUIxCW0Ag=
 
-jquery@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.0.tgz#c72a09f15c1bdce142f49dbf1170bdf8adac2470"
-  integrity sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==
+jquery@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.6.1.tgz#fab0408f8b45fc19f956205773b62b292c147a16"
+  integrity sha512-opJeO4nCucVnsjiXOE+/PcCgYw9Gwpvs/a6B1LL/lQhwWwpbVEVYDZ1FokFr8PRc7ghYlrFPuyHuiiDNTQxmcw==
 
 simple-jekyll-search@^1.9.2:
   version "1.9.2"
